@@ -1,4 +1,4 @@
-# 🚀 Project Name
+# 🚀 CBAM Gen AI
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
