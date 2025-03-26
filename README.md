@@ -14,7 +14,10 @@
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+In this notebook, we are analyzing and build models to detect anomaly and reconciliation for iHub loans current and historical transactions data in ihubloans dataset
+We'll explore the data, preprocess it, and apply several machine learning models to predict anomaly and reconciliation solution including Logistic Regression, Isolation Forest, and Local Outlier Factor.
+ 
+The performance of these models will be evaluated using common classification metrics.
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
@@ -24,37 +27,38 @@ A brief overview of your project and its purpose. Mention which problem statemen
 ![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+Our team pretty much enthusiastic to learn new technologies and arrive new solutions on real time bank functions to ensure smooth customer satisfaction. This drives us to participate in this hackathon competition and part of this great event to deliver our best.
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+This solution will take iHub loans transaction data as an input with as of date for current and historical data and we apply LLMs and algorithms like including Logistic Regression, Isolation Forest, and Local Outlier Factor and apply different level of predictions and provide anomaly detection and reconciliation suggestions and crate different charts like heatmaps etc and provide recommendations.
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+We formed a Hackthon team and we Analyzed the problem and defined the input data as per issue guidance.
+After input data ready in csv fomat, by taking Kaggle notebook editor, we implemented our solution in python with different librabry like pandas, numpy and alogorithms like Logistic Regression, Isolation Forest, and Local Outlier Factor. 
+with help of diffent algorithms specified above, we analyzed , classified data and trancastions 
+finally did predication with all there different alogrithms methods to arrive anomally dections and reconcilliation.
+it provided anomally detections and recommented solutions which is mentioend in code solution
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+during this implementation we came across different challenges like 1. we undergo into some learning curve in very short time span, 2.  Apply right algorithm to the problem statement was bit difficult , but able to achieve based on the guidance and discussion with team. 3. collaborating team due to shortspan was bit challange
 
 ## 🏃 How to Run
-1. Clone the repository  
    ```sh
-   git clone https://github.com/your-repo.git
-   ```
-2. Install dependencies  
-   ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
-   ```
-3. Run the project  
-   ```sh
-   npm start  # or python app.py
+1. Open the provided solution file -    ihub_loans_data_anomaly_detection.py in Kaggle / google code colab or any other python environment where we can run the python code
+2. Upload iHubLoans.csv file in to the environment where the solution support to run
+3. modify the iHubLoans.csv file path in the code
+4. Run the code from startign to end (run all)
+5. View the output of all sections
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- 🔹 Frontend: Kaggle/ goodle colab env to run python notebook
+- 🔹 Backend: Python libraries   Pandas, Numpy, sklearn etc
+- 🔹 Database: CSV File
+- 🔹 Other: linear_model, ensemble, linear_model, sklearn.preprocessing, seaborn, sklearn.model_selection
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+- **Ramu Pothuraju** - [GitHub](#) | [LinkedIn](#)
+- **Kiran Kumar Jhade** - [GitHub](#) | [LinkedIn](#)
+- **Pavan Malladi** - [GitHub](#) | [LinkedIn](#)
+- **Ajanta K** - [GitHub](#) | [LinkedIn](#)
