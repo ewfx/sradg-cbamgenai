@@ -20,9 +20,7 @@ We'll explore the data, preprocess it, and apply several machine learning models
 The performance of these models will be evaluated using common classification metrics.
 
 ## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
-🖼️ Screenshots:
+Screen shot docs and video uploaed in Artifacts folder, plese verify in Artifacts folder.
 
 ![Screenshot 1](link-to-image)
 
